@@ -4,7 +4,8 @@
 	"description": "fcc backend boilerplate",
 	"main": "server.js",
 	"scripts": {
-		"start": "node myApp.js"
+		"start": "node myApp.js",
+		require("helmet");
 	},
 	"dependencies": {
 		"express": "^4.14.0",
